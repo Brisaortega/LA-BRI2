@@ -1,0 +1,126 @@
+.formulario {
+	background-color: $background-color_4;
+	color: $color_2;
+	width: 60%;
+	margin-top: 4rem;
+	margin: 2rem;
+	border-radius: 0.5rem;
+	text-align: start;
+	display: grid;
+}
+.formulario2 {
+	background-color: $background-color_4;
+	color: $color_2;
+	width: 60%;
+	margin-top: 4rem;
+	margin: 2rem;
+	border-radius: 0.5rem;
+	text-align: start;
+	display: grid;
+}
+form-control {
+	width: 100%;
+	font-weight: bold;
+	display: flexbox;
+}
+.texto-contacto {
+	h1 {
+		color: $color_3;
+		text-align: center;
+		font-size: 1.5;
+		margin: auto;
+	}
+}
+.map-responsive {
+	overflow: hidden;
+	position: relative;
+	height: 0;
+	padding-bottom: 40%;
+	iframe {
+		left: 0;
+		top: 0;
+		height: 100%;
+		width: 100%;
+		position: absolute;
+	}
+}
+.contenedor-box {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	text-align: center;
+	.box {
+		img {
+			height: 20rem;
+			width: 25rem;
+			background-color: $background-color_6;
+			border-radius: 1rem;
+			margin: 2rem;
+			text-align: center;
+		}
+	}
+
+}
+.contenedor-box .bi {
+    position: relative;
+    width: 5rem;
+    height: 3rem;
+    top: 0;
+    background-color: #6A4520 rgba(0, 0, 0, 0.7);
+    transition: all 600ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+
+}
+
+.contenedor-box :hover>.bi {
+    opacity: 1;
+    visibility: visible;
+}
+
+h1 {
+	color: $color_4;
+	width: 50%;
+	font-size: 2rem;
+	text-align: center;
+	font-weight: bold;
+	display: flex;
+	margin: 3rem;
+}
+.accordion-item {
+	width: 100%;
+	margin-top: 10rem;
+	background-color: $background-color_1;
+}
+
+.accordion-body {
+	background-color: $background-color_5;
+	text-align: center;
+	margin-top: 3rem;
+	font-size: 1.5rem;
+}
+.contededor-texto {
+	h6 {
+		text-align: center;
+		font-size: 2rem;
+		margin: 1rem 0rem 3rem;
+		left: 0;
+		top: 0;
+		height: 100%;
+		width: 100%;
+		position: absolute;
+	}
+}
+.preguntas {
+	h2 {
+		text-align: start;
+		font-size: 2rem;
+		margin: auto;
+		background-color: $background-color_4;
+		display: flex;
+		width: 100%;
+	}
+	font-size: 2rem;
+	margin-left: 40%;
+	text-align: center;
+}

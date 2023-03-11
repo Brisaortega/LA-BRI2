@@ -1,0 +1,24 @@
+body {
+    background-color: #D4A373;
+}
+body {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    font-size: 0.92%;
+}
+
+.nav-item {
+	font-size: 2rem;
+	padding-left: 5%;
+}
+.carousel {
+	margin: 2rem;
+	img {
+		height: 100%;
+		width: 100%;
+	}
+}
