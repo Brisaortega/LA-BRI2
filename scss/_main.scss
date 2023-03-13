@@ -2,20 +2,14 @@
 	background-color: $background-color_4;
 	color: $color_2;
 	width: 60%;
-	margin-top: 4rem;
-	margin: 2rem;
-	border-radius: 0.5rem;
-	text-align: start;
+	@include anclas;
 	display: grid;
 }
 .formulario2 {
 	background-color: $background-color_4;
 	color: $color_2;
 	width: 60%;
-	margin-top: 4rem;
-	margin: 2rem;
-	border-radius: 0.5rem;
-	text-align: start;
+    @include anclas;
 	display: grid;
 }
 form-control {
