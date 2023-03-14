@@ -38,13 +38,15 @@ form-control {
   position: relative;
   height: 0;
   padding-bottom: 40%;
+
 }
+
 .map-responsive iframe {
-  left: 0;
-  top: 0;
   height: 100%;
   width: 100%;
   position: absolute;
+  padding: 1.5rem;
+ 
 }
 
 .contenedor-box {
@@ -53,6 +55,7 @@ form-control {
   flex-wrap: wrap;
   text-align: center;
 }
+
 .contenedor-box .box img {
   height: 20rem;
   width: 25rem;
@@ -73,7 +76,7 @@ form-control {
   visibility: hidden;
 }
 
-.contenedor-box :hover > .bi {
+.contenedor-box :hover>.bi {
   opacity: 1;
   visibility: visible;
 }
@@ -117,6 +120,7 @@ h1 {
   margin-left: 40%;
   text-align: center;
 }
+
 .preguntas h2 {
   text-align: start;
   font-size: 2rem;
@@ -147,6 +151,7 @@ html {
   width: 5rem;
   height: 20%;
 }
+
 .row label {
   margin-top: 0.5rem;
   margin-left: 1rem;
@@ -157,10 +162,12 @@ html {
   margin-top: 1rem;
   display: flex;
 }
+
 .row2 img {
   width: 10%;
   height: 15%;
 }
+
 .row2 label {
   margin: 1rem;
   max-width: 80%;
@@ -170,9 +177,11 @@ html {
 .colum1 {
   max-width: 400px;
 }
+
 .colum1 h6 {
   font-size: 2rem;
 }
+
 .colum1 p {
   font-size: 84.92%;
   color: #c7c7c7;
@@ -183,9 +192,11 @@ html {
 .colum2 {
   width: 50%;
 }
+
 .colum2 h6 {
   font-size: 2rem;
 }
+
 .colum2 row {
   margin-top: 1rem;
   display: flex;
@@ -194,6 +205,7 @@ html {
 .colum3 {
   width: 60%;
 }
+
 .colum3 h6 {
   font-size: 2rem;
 }
@@ -204,6 +216,7 @@ html {
   flex-wrap: wrap;
   text-align: center;
 }
+
 .contenedor-box .box img {
   height: 20rem;
   width: 25rem;
@@ -212,6 +225,7 @@ html {
   margin: 2rem;
   text-align: center;
 }
+
 .contenedor-box img {
   line-height: 3rem;
   height: 3rem;
@@ -226,6 +240,7 @@ html {
   transition: all 500ms ease-out;
   position: relative;
 }
+
 .contenedor-box .bi {
   position: relative;
   width: 5rem;
@@ -236,7 +251,8 @@ html {
   opacity: 0;
   visibility: hidden;
 }
-.contenedor-box:hover > .bi {
+
+.contenedor-box:hover>.bi {
   opacity: 1;
   visibility: visible;
 }
@@ -247,6 +263,7 @@ html {
   transition: 0.2s;
   border-radius: 1rem;
 }
+
 .botonenviar:hover {
   height: 2rem;
   width: 20rem;
@@ -266,6 +283,7 @@ html {
   font-size: 1.7rem;
   margin-right: 4rem;
 }
+
 .botonWpp:hover {
   height: 5rem;
   width: 15rem;
@@ -331,6 +349,7 @@ body {
 .carousel {
   margin: 2rem;
 }
+
 .carousel img {
   height: 100%;
   width: 100%;
@@ -342,14 +361,17 @@ body {
     grid-template-areas: "header header " "main main" "footer footer ";
     grid-template-columns: 100%;
   }
+
   .container-body {
     flex-wrap: wrap;
   }
+
   .colum2,
   .colum3 {
     margin-top: 5%;
   }
 }
+
 @media (min-width: 1024px) {
   .contenedor {
     width: 100%;
