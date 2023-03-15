@@ -1,37 +1,63 @@
-.formulario {
-  background-color: #6A4520;
-  color: white;
-  width: 60%;
-  margin-top: 4rem;
-  margin: 2rem;
-  border-radius: 0.5rem;
-  text-align: start;
-  display: grid;
-}
 
 .formulario2 {
   background-color: #6A4520;
   color: white;
-  width: 60%;
-  margin-top: 4rem;
-  margin: 2rem;
-  border-radius: 0.5rem;
+  width: 70%;
+  
+  margin: 6rem;
+  border-radius: 3rem;
   text-align: start;
-  display: grid;
+  display: flex-box;
+  
+
 }
 
-form-control {
-  width: 100%;
-  font-weight: bold;
-  display: flexbox;
-}
-
-.texto-contacto h1 {
-  color: #202020;
+.formulario2 h1 {
+  color: #D4A373;
   text-align: center;
   font-size: 1.5;
   margin: auto;
+
 }
+.formulario2 h2{
+  text-align: start;
+  font-size: 1rem;
+  margin: 1rem;
+}
+
+.form-label{
+font-size: 1rem;
+margin: 1rem;
+
+}
+.form-control {
+  width: 90%;
+  font-weight: bold;
+  display: flexbox;
+  background-color: #fff;
+  margin: 1rem;
+
+}
+.aviso{
+  font-size: 1rem;
+ margin: 1rem;
+}
+.text{
+width: 85%;
+padding: 1rem;
+margin: 1rem;
+font-size: 1rem;
+margin-top: 2rem;
+}
+.botonenviar {
+
+  margin: 1rem;
+  transition: 0.2s;
+  border-radius: 1rem;
+  font-size: 1rem;
+
+}
+
 
 .map-responsive {
   overflow: hidden;
@@ -46,7 +72,7 @@ form-control {
   width: 100%;
   position: absolute;
   padding: 1.5rem;
- 
+
 }
 
 .contenedor-box {
@@ -151,7 +177,7 @@ html {
   width: 5rem;
   height: 20%;
   margin-top: 1.5;
-  
+
 }
 
 .row label {
@@ -161,10 +187,11 @@ html {
   font-size: 1rem;
 
 }
+
 .row2 {
   margin-top: 1rem;
   display: flex;
-  
+
 }
 
 .row2 img {
@@ -177,7 +204,7 @@ html {
   max-width: 80%;
   margin-top: 1rem;
   font-size: 0.80rem;
-  
+
 }
 
 
@@ -197,8 +224,8 @@ html {
   color: #c7c7c7;
   margin-top: 1.5rem;
   width: 90%;
-  
- 
+
+
 }
 
 .colum2 {
@@ -206,7 +233,7 @@ html {
   margin: 1rem;
 }
 
-.colum2 h2{
+.colum2 h2 {
   font-size: 1.5rem;
   width: 100%;
 }

@@ -1,21 +1,50 @@
-.formulario {
-	background-color: $background-color_4;
-	color: $color_2;
-	width: 60%;
-	@include anclas;
-	display: grid;
-}
 .formulario2 {
-	background-color: $background-color_4;
-	color: $color_2;
-	width: 60%;
-    @include anclas;
-	display: grid;
+	background-color: $background-color_1;
+	color: $color_1;
+	width: 70%;
+	margin: 6rem;
+	border-radius: 3rem;
+	text-align: start;
+	display: flex-box;
+	h1 {
+		color: $color_2;
+		text-align: center;
+		font-size: 1.5;
+		margin: auto;
+	}
+	h2 {
+		text-align: start;
+		font-size: 1rem;
+		margin: 1rem;
+	}
 }
-form-control {
-	width: 100%;
+.form-label {
+	font-size: 1rem;
+	margin: 1rem;
+}
+.form-control {
+	width: 90%;
 	font-weight: bold;
 	display: flexbox;
+	background-color: $background-color_2;
+	margin: 1rem;
+}
+.aviso {
+	font-size: 1rem;
+	margin: 1rem;
+}
+.text {
+	width: 85%;
+	padding: 1rem;
+	margin: 1rem;
+	font-size: 1rem;
+	margin-top: 2rem;
+}
+.botonenviar {
+	margin: 1rem;
+	transition: 0.2s;
+	border-radius: 1rem;
+	font-size: 1rem;
 }
 .texto-contacto {
 	h1 {
