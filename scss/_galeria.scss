@@ -6,64 +6,76 @@
 		margin-inline-end: 5%;
 	}
 }
+
 .row {
 	img {
 		width: 5rem;
 		height: 20%;
+		margin-top: 1.5;
 	}
 	label {
-		margin-top: 0.5rem;
+		margin-top: 1rem;
 		margin-left: 1rem;
-		color: $color_6;
+		color: $color_1;
+		font-size: 1rem;
 	}
 }
 .row2 {
 	margin-top: 1rem;
 	display: flex;
 	img {
-		width: 10%;
-		height: 15%;
+		width: 15%;
+		height: 10%;
 	}
 	label {
 		margin: 1rem;
 		max-width: 80%;
 		margin-top: 1rem;
+		font-size: 0.80rem;
 	}
 }
 .colum1 {
 	max-width: 400px;
-	h6 {
-		font-size: 2rem;
+	margin: 1rem;
+	h2 {
+		font-size: 1.5rem;
+		width: 100%;
 	}
 	p {
-		font-size: 84.92%;
-		color: $color_6;
-		margin-top: 2rem;
-		width: 50%;
+		font-size: 1rem;
+		color: $color_1;
+		margin-top: 1.5rem;
+		width: 90%;
 	}
 }
 .colum2 {
-	width: 50%;
-	h6 {
-		font-size: 2rem;
+	width: 40%;
+	margin: 1rem;
+	h2 {
+		font-size: 1.5rem;
+		width: 100%;
 	}
 	row {
 		margin-top: 1rem;
 		display: flex;
 	}
 }
-
 .colum3 {
-	width: 60%;
-	h6 {
-		font-size: 2rem;
+	width: 40%;
+	margin: 1rem;
+	h2 {
+		font-size: 1.5rem;
+		text-align: center;
 	}
 }
+
+
 .contenedor-box {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
 	text-align: center;
+
 	.box {
 		img {
 			height: 20rem;
@@ -74,6 +86,7 @@
 			text-align: center;
 		}
 	}
+
 	img {
 		line-height: 3rem;
 		height: 3rem;
@@ -88,6 +101,7 @@
 		transition: all 500ms ease-out;
 		position: relative;
 	}
+
 	.bi {
 		position: relative;
 		width: 5rem;
@@ -98,6 +112,7 @@
 		opacity: 0;
 		visibility: hidden;
 	}
+
 	&:hover {
 		>.bi {
 			opacity: 1;
@@ -105,4 +120,3 @@
 		}
 	}
 }
-

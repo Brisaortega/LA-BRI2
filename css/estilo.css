@@ -150,64 +150,81 @@ html {
 .row img {
   width: 5rem;
   height: 20%;
+  margin-top: 1.5;
+  
 }
 
 .row label {
-  margin-top: 0.5rem;
+  margin-top: 1rem;
   margin-left: 1rem;
   color: #c7c7c7;
-}
+  font-size: 1rem;
 
+}
 .row2 {
   margin-top: 1rem;
   display: flex;
+  
 }
 
 .row2 img {
-  width: 10%;
-  height: 15%;
+  width: 15%;
+  height: 10%;
 }
 
 .row2 label {
   margin: 1rem;
   max-width: 80%;
   margin-top: 1rem;
+  font-size: 0.80rem;
+  
 }
+
+
 
 .colum1 {
   max-width: 400px;
+  margin: 1rem;
 }
 
-.colum1 h6 {
-  font-size: 2rem;
+.colum1 h2 {
+  font-size: 1.5rem;
+  width: 100%;
 }
 
 .colum1 p {
-  font-size: 84.92%;
+  font-size: 1rem;
   color: #c7c7c7;
-  margin-top: 2rem;
-  width: 50%;
+  margin-top: 1.5rem;
+  width: 90%;
+  
+ 
 }
 
 .colum2 {
-  width: 50%;
+  width: 40%;
+  margin: 1rem;
 }
 
-.colum2 h6 {
-  font-size: 2rem;
+.colum2 h2{
+  font-size: 1.5rem;
+  width: 100%;
 }
 
 .colum2 row {
   margin-top: 1rem;
   display: flex;
+
 }
 
 .colum3 {
-  width: 60%;
+  width: 40%;
+  margin: 1rem;
 }
 
-.colum3 h6 {
-  font-size: 2rem;
+.colum3 h2 {
+  font-size: 1.5rem;
+  text-align: center;
 }
 
 .contenedor-box {
@@ -307,11 +324,13 @@ footer {
   width: 100%;
 }
 
+
 .container-footer-all {
   width: 100%;
   max-width: 1000px;
   margin: auto;
   padding: 1.5rem;
+
 }
 
 .container-body {
@@ -336,7 +355,6 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  display: grid;
   grid-template-rows: auto 1fr auto;
   font-size: 0.92%;
 }
