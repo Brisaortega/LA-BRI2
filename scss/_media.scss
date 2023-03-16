@@ -32,3 +32,19 @@
             "footer footer footer ";
     }
 }
+@media(min-width: 700px) {
+    body {
+        padding: 0 4rem;
+    }
+    .contacto {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    .contacto > * {
+        padding: 2rem;
+    }
+    .contacto-info h4,
+    .contacto-info ul{
+        text-align: left;
+    }
+}

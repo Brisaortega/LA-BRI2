@@ -1,34 +1,109 @@
+
 .formulario {
-	background-color: $background-color_1;
-	color: $color_1;
-	width: 60%;
-	margin-top: 4rem;
-	margin: 2rem;
-	border-radius: 0.5rem;
-	text-align: start;
-	display: grid;
+	max-width: 1170px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1.5rem;
 }
-.formulario2 {
-	background-color: $background-color_1;
-	color: $color_1;
-	width: 60%;
-	margin-top: 4rem;
-	margin: 2rem;
-	border-radius: 0.5rem;
-	text-align: start;
-	display: grid;
+ul {
+	list-style: none;
+	padding: 0;
 }
-form-control {
-	width: 100%;
-	font-weight: bold;
-	display: flexbox;
+.formulario{
+	h1 {
+		text-align: center;
+		font-size: 2.5rem;
+		color: $color_7;
+		margin:2rem;
+	}
+}
+.contacto {
+	background-color: #D4A373;
+	>* {
+		padding: 1rem;
+	}
 }
 .texto-contacto {
-	h1 {
-		color: $color_2;
+	h2 {
 		text-align: center;
-		font-size: 1.5;
-		margin: auto;
+		font-size: 2.5rem;
+		color: $color_7;
+	}
+}
+.contacto-form {
+	background: #D4A373;
+	form {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		label {
+			display: block;
+		}
+		p {
+			margin: 0;
+			padding: 1rem;
+			font-size: 1.5rem;
+		}
+		.block {
+			grid-column: 1/3;
+		}
+		button {
+			width: 100%;
+			padding: 0.7rem;
+			border: none;
+			background: none;
+			outline: 0;
+			color: $color_2;
+			border-bottom: 1px solid #6A4520;
+			background: #6A4520;
+			border: 0;
+			text-transform: uppercase;
+			padding: 1rem;
+			&:hover {
+				background: #d63031;
+				color: $color_3;
+				transition: background-color 1s ease-out;
+				outline: 0;
+			}
+			&:focus {
+				background: #D4A373;
+				color: $color_3;
+				transition: background-color 1s ease-out;
+				outline: 0;
+			}
+		}
+		input {
+			width: 100%;
+			padding: 0.7em;
+			border: none;
+			background: none;
+			outline: 0;
+			color: $color_3;
+			border-bottom: 1px solid #d63031;
+		}
+		textarea {
+			width: 100%;
+			padding: 0.7em;
+			border: none;
+			background: none;
+			outline: 0;
+			color: $color_3;
+			border-bottom: 1px solid #d63031;
+		}
+	}
+}
+.contacto-info {
+	background: #6A4520;
+	h4 {
+		text-align: center;
+		margin: 0 0 1rem 0;
+		font-size: 2;
+		color: #fff;
+	}
+	ul {
+		text-align: center;
+		margin: 0 0 1rem 0;
+		font-size: 1.5rem;
+		color: #fff;
 	}
 }
 
