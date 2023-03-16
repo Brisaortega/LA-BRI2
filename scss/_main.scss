@@ -169,13 +169,18 @@ h1 {
 	width: 100%;
 	margin-top: 10rem;
 	background-color: $background-color_1;
+	padding: 1.5rem;
 }
 
 .accordion-body {
 	background-color: $background-color_5;
 	text-align: center;
 	margin-top: 3rem;
-	font-size: 1.5rem;
+	margin: 3rem;
+}
+.accordion-collapse{
+text-align: center;
+font-size: 1.5rem;
 }
 .contededor-texto {
 	h6 {
