@@ -233,7 +233,7 @@ html {
 .row label {
   margin-top: 1rem;
   margin-left: 1rem;
-  color: black;
+  color: #fff;
   font-size: 1rem;
 }
 
@@ -262,7 +262,7 @@ html {
 }
 .colum1 p {
   font-size: 1rem;
-  color: black;
+  color: #fff;
   margin-top: 1.5rem;
   width: 90%;
 }
@@ -374,7 +374,7 @@ html {
   margin: 1rem;
 }
 
-footer {
+.footer {
   background-color: #202020;
   color: white;
   width: 100%;
@@ -382,7 +382,7 @@ footer {
 
 .container-footer-all {
   width: 100%;
-  max-width: 1000px;
+  max-width: 1400px;
   margin: auto;
   padding: 1.5rem;
 }
@@ -395,9 +395,9 @@ footer {
 .footer {
   display: flex;
   justify-content: space-between;
-  max-width: 1200px;
+  max-width: 1400px;
   margin: auto;
-  padding: 2rem;
+  padding: 3rem;
 }
 
 body {
