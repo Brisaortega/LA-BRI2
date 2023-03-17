@@ -183,15 +183,18 @@ h1 {
   font-size: 1.5rem;
 }
 
-.contededor-texto h6 {
-  text-align: center;
-  font-size: 2rem;
-  margin: 1rem 0rem 3rem;
+.contenedor-texto h2 {
+  font-size: 3rem;
+  margin: 3rem;
   left: 0;
   top: 0;
-  height: 100%;
-  width: 100%;
-  position: absolute;
+  text-align: center;
+  text-decoration: none;
+}
+.contenedor-texto p {
+  font-size: 1.5rem;
+  margin: 3rem;
+  text-align: center;
 }
 
 .preguntas {
