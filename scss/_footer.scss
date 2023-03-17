@@ -1,13 +1,15 @@
 
 
-.footer {
-	background-color: $background-color_8;
+footer {
+	background-color:$background-color_8;
 	color: $color_2;
 	width: 100%;
+	
 }
+
 .container-footer-all {
 	width: 100%;
-	max-width: 1400px;
+	max-width: 1200px;
 	margin: auto;
 	padding: 1.5rem;
 }
@@ -16,10 +18,4 @@
 	justify-content: space-between;
 }
 
-.footer {
-	display: flex;
-	justify-content: space-between;
-	max-width: 1400px;
-	margin:auto;
-	padding: 3rem;
-}
+

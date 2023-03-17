@@ -28,13 +28,12 @@
         grid-template-areas:
             "header header header"
             "main main main"
-            "footer footer footer ";
+            "footer footer footer  ";
     }
+
 }
 @media(min-width: 700px) {
-    body {
-        padding: 0 4rem;
-    }
+   
     .contacto {
         display: grid;
         grid-template-columns: 2fr 1fr;
