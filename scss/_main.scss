@@ -11,10 +11,7 @@ ul {
 }
 .formulario{
 	h1 {
-		text-align: center;
-		font-size: 2.5rem;
-		color: $color_7;
-		margin:2rem;
+		@include anclas;
 	}
 }
 .contacto {
@@ -25,9 +22,7 @@ ul {
 }
 .texto-contacto {
 	h2 {
-		text-align: center;
-		font-size: 2.5rem;
-		color: $color_7;
+	    @include anclas;
 	}
 }
 .contacto-form {
@@ -93,7 +88,7 @@ ul {
 }
 .contacto-info {
 	background: #6A4520;
-	h4 {
+	h3{
 		text-align: center;
 		margin: 0 0 1rem 0;
 		font-size: 2;

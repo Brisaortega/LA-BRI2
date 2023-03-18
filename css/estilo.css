@@ -28,6 +28,7 @@ ul {
   text-align: center;
   font-size: 2.5rem;
   color: #d63031;
+  margin: 2rem;
 }
 
 .contacto-form {
@@ -95,7 +96,7 @@ ul {
 .contacto-info {
   background: #6A4520;
 }
-.contacto-info h4 {
+.contacto-info h3 {
   text-align: center;
   margin: 0 0 1rem 0;
   font-size: 2;
