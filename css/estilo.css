@@ -135,7 +135,10 @@ ul {
   background-color: #101010;
   border-radius: 1rem;
   margin: 2rem;
-  text-align: center;
+  box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.5);
+  transition: all 500ms ease-out;
+	position: relative;
+  line-height: 3rem;
 }
 
 .contenedor-box .bi {
@@ -290,19 +293,15 @@ html {
 .contenedor-box {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
   text-align: center;
 }
 .contenedor-box .box img {
   line-height: 3rem;
-  text-align: center;
-  border-radius: 50%;
+  border-radius: 1rem;
   background-color: #D4A373;
   height: 20rem;
   width: 25rem;
-  border-radius: 1rem;
   margin: 2rem;
-  text-align: center;
   box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.5);
   transition: all 500ms ease-out;
   position: relative;
