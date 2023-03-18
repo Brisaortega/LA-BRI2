@@ -135,10 +135,7 @@ ul {
   background-color: #101010;
   border-radius: 1rem;
   margin: 2rem;
-  box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.5);
-  transition: all 500ms ease-out;
-	position: relative;
-  line-height: 3rem;
+  text-align: center;
 }
 
 .contenedor-box .bi {
@@ -293,15 +290,27 @@ html {
 .contenedor-box {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   text-align: center;
 }
 .contenedor-box .box img {
-  line-height: 3rem;
-  border-radius: 1rem;
-  background-color: #D4A373;
   height: 20rem;
   width: 25rem;
+  background-color: #101010;
+  border-radius: 1rem;
   margin: 2rem;
+  text-align: center;
+}
+.contenedor-box img {
+  line-height: 3rem;
+  height: 3rem;
+  width: 3rem;
+  text-align: center;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #6A4520;
+  font-size: 2rem;
+  margin: 1rem 0;
   box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.5);
   transition: all 500ms ease-out;
   position: relative;
@@ -408,6 +417,19 @@ body {
   width: 100%;
 }
 
+@media (min-width: 360px) and (max-width: 625px) {
+  .box img {
+    height: 5rem;
+    margin-left: 3.5rem;
+    margin-right: 2rem;
+  }
+  .contenedor-texto h2 {
+    font-size: 1.5rem;
+  }
+  .contenedor-texto p {
+    font-size: 1rem;
+  }
+}
 @media (min-width: 768px) and (max-width: 1024px) {
   .body {
     display: grid;

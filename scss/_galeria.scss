@@ -77,20 +77,35 @@
 .contenedor-box {
 	display: flex;
 	justify-content: center;
+	flex-wrap: wrap;
 	text-align: center;
+
 	.box {
 		img {
-			line-height: 3rem;
-			border-radius: 1rem;
-			background-color: $background-color_1;
 			height: 20rem;
 			width: 25rem;
+			background-color: $background-color_6;
+			border-radius: 1rem;
 			margin: 2rem;
-			box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.5);
-			transition: all 500ms ease-out;
-			position: relative;
+			text-align: center;
 		}
 	}
+
+	img {
+		line-height: 3rem;
+		height: 3rem;
+		width: 3rem;
+		text-align: center;
+		border-radius: 50%;
+		color: $color_5;
+		background-color: $background-color_4;
+		font-size: 2rem;
+		margin: 1rem 0;
+		box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.5);
+		transition: all 500ms ease-out;
+		position: relative;
+	}
+
 	.bi {
 		position: relative;
 		width: 5rem;
@@ -101,6 +116,7 @@
 		opacity: 0;
 		visibility: hidden;
 	}
+
 	&:hover {
 		>.bi {
 			opacity: 1;

@@ -1,3 +1,21 @@
+@media(min-width:360px) and (max-width:625px){
+    
+    .box {
+        img{
+        height: 5rem;
+        margin-left: 3.5rem;
+        margin-right: 2rem;
+        }
+    }
+    .contenedor-texto h2{
+        font-size: 1.5rem;
+    }
+    .contenedor-texto p{
+        font-size: 1rem;
+    }
+}
+
+    
 
 @media(min-width:768px) and (max-width:1024px) {
     .body {
