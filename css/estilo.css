@@ -185,7 +185,7 @@ h1 {
 
 .contenedor-texto h2 {
   font-size: 3rem;
-  margin: 5rem 2rem 5rem;
+  margin: 1rem 0rem 3rem;
   left: 0;
   top: 0;
   text-align: center;
@@ -193,7 +193,7 @@ h1 {
 }
 .contenedor-texto p {
   font-size: 2rem;
-  margin: 7.5rem;
+  margin: 2rem;
   text-align: center;
   top: 0;
   left: 0;
